@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WilderNavNotes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Wild Man</string>
+    <string name="nav_header_subtitle">yeightop@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Shlime House</string>
+    <string name="menu_gallery">Converter</string>
+    <string name="menu_slideshow">Don\'t Go Here</string>
+</resources>
