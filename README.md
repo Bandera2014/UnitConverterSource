@@ -1,4 +1,4 @@
-#**MAKE SURE to create your own branch**
+#MAKE SURE to create your own branch
 
 Take the original version of the unit converter app and add all of the pages from the other students in the course.  
 You should have the following pages (10 pts):  
