@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_spaceDist"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Distances in Space" />
+        <item
+            android:id="@+id/nav_mass"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Mass" />
+        <item
+            android:id="@+id/nav_volume"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Volume" />
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Time" />
+        <item
+            android:id="@+id/nav_speed"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Speed" />
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Weight" />
+        <item
+            android:id="@+id/nav_frequency"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Frequency" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Temperature" />
+        <item
+            android:id="@+id/nav_bytes"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Bytes / Data" />
+    </group>
+</menu>
