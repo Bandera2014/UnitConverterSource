@@ -16,11 +16,9 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
-
-import com.example.borcheltcombinedunitconverter.ui.gallery.FrequencyViewModel;
 import com.example.borcheltcombinedunitconverter.R;
 
-public class GalleryFragment extends Fragment {
+public class FrequencyFragment extends Fragment {
 
     private FrequencyViewModel galleryViewModel;
 
@@ -45,7 +43,7 @@ public class GalleryFragment extends Fragment {
         galleryViewModel =
                 ViewModelProviders.of(this).get(FrequencyViewModel.class);
         //this low below opens and runs the fragment_gallery xml
-        final View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        final View root = inflater.inflate(R.layout.fragment_frequency, container, false);
         picker1 = (NumberPicker) root.findViewById(R.id.rudolphNumberPickerInput0);
         picker2 = (NumberPicker) root.findViewById(R.id.rudolphNumberPickerInput);
         numberInputText = root.findViewById((R.id.editTextTextPersonName));

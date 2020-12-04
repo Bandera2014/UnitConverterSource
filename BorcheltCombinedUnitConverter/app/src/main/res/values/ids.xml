@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="givenValue" type="id" />
+    <item name="returnValue" type="id" />
+    <item name="givenUnits" type="id" />
+    <item name="desiredUnits" type="id" />
+    <item name="enterNumber" type="id" />
+    <item name="pickerIn" type="id" />
+    <item name="textOutput" type="id" />
+    <item name="pickerOut" type="id" />
+    <item name="text_data" type="id" />
+</resources>

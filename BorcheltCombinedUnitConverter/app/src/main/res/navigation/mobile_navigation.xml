@@ -22,4 +22,45 @@
         android:name="com.example.borcheltcombinedunitconverter.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.example.borcheltcombinedunitconverter.ui.dataSize.DataFragment"
+        android:label="@string/menu_data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_frequency"
+        android:name="com.example.borcheltcombinedunitconverter.ui.frequency.FrequencyFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_frequency" />
+    <fragment
+        android:id="@+id/nav_spaceDist"
+        android:name="com.example.borcheltcombinedunitconverter.ui.spaceDistance.SpaceFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_space" />
+    <fragment
+        android:id="@+id/nav_speed"
+        android:name="com.example.borcheltcombinedunitconverter.ui.speed.SpeedFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_speed" />
+    <fragment
+        android:id="@+id/nav_temperature"
+        android:name="com.example.borcheltcombinedunitconverter.ui.temperature.TemperatureFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_tempurature" />
+    <fragment
+        android:id="@+id/nav_time"
+        android:name="com.example.borcheltcombinedunitconverter.ui.time.TimeFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_time" />
+    <fragment
+        android:id="@+id/nav_volume"
+        android:name="com.example.borcheltcombinedunitconverter.ui.volume.VolumeFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_volume" />
+    <fragment
+        android:id="@+id/nav_weight"
+        android:name="com.example.borcheltcombinedunitconverter.ui.weight.WeightFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_weight" />
+
 </navigation>

@@ -10,7 +10,7 @@ public class SpaceViewModel extends ViewModel {
 
     public SpaceViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is home fragment");
     }
 
     public LiveData<String> getText() {
